@@ -1,5 +1,5 @@
 {
- "keywords": "Mayfly, EnviroDIY, Sensors, DS-3231",
+ "keywords": "Mayfly, EnviroDIY, Sensors, DS-3231, Logger, SDI-12",
  "dependencies": [
   {
    "version": "http://github.com/Adafruit/Adafruit_ADS1X15.git",
@@ -34,10 +34,6 @@
    "name": "EnviroDIY_PCInt_PCINT0"
   },
   {
-   "version": "https://github.com/EnviroDIY/SdFat.git",
-   "name": "EnviroDIY_SdFat"
-  },
-  {
    "version": "http://github.com/EnviroDIY/Arduino-SDI-12.git#master",
    "name": "EnviroDIY_SDI12"
   },
@@ -60,13 +56,17 @@
   {
    "version": "http://github.com/SodaqMoja/RTCTimer.git",
    "name": "Sodaq_RTCTimer"
+  },
+  {
+   "version": "https://github.com/greiman/SdFat.git",
+   "name": "SdFat"
   }
  ],
  "name": "EnviroDIYMayfly",
  "repository": {
   "url": "https://github.com/EnviroDIY/Libraries.git",
   "type": "git",
-  "branch": "master"
+  "branch": "platformio"
  },
  "description": "A collection of libraries to support the EnviroDIY Mayfly"
 }
