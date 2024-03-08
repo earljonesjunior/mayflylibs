@@ -1,7 +1,7 @@
 {
   "name": "EnviroDIYMayfly",
   "repository": {
-    "url": "https://github.com/EnviroDIY/Libraries",
+    "url": "https://github.com/earljonesjunior/mayflylibs",
     "type": "git",
     "branch": "platformio"
   },
