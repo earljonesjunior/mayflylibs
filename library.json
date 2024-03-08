@@ -155,6 +155,7 @@
     },
     {
       "name": "BMP388_DEV",
+      "library id": "420",
       "owner": "MartinL1",
       "url": "https://github.com/EnviroDIY/BMP388_DEV.git",
       "version_note": "~1.0.7",
